@@ -1,0 +1,29 @@
+@use '../foundation/setting';
+.l-header {
+    background-color: setting.$white;
+    &__content {
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        ul {
+            display: flex;
+            gap: 16px; 
+            a {
+                color: setting.$black;
+                font-size: setting.$font-size-24;
+                text-decoration: none;
+            }
+        }
+    }
+    &__contact {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: setting.$black;
+        font-size: setting.$font-size-24;
+        text-decoration: none;
+    }
+}

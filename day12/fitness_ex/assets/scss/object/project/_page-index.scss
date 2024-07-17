@@ -1,0 +1,23 @@
+@use './../../foundation/setting';
+.p-banner {
+    background: url(../images/banner.png) no-repeat top center/cover;
+    height: 916px;
+    &__inner {
+        position: relative;
+        height: 100%;
+    }
+    &__content {
+        max-width: 913px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        .p-banner__subtitle {
+            font-size: setting.$font-size-30;
+            color: setting.$white-op-75;
+        }
+        h1 {
+            margin: 32px 0;
+            color: setting.$white;
+        }
+    }
+}

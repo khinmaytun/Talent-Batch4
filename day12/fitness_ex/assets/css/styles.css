@@ -1,0 +1,222 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: "Futura PT Book";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Book"), url("../fonts/FuturaCyrillicBook.woff") format("woff");
+}
+@font-face {
+  font-family: "Futura PT Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Medium"), url("../fonts/FuturaCyrillicMedium.woff") format("woff");
+}
+@font-face {
+  font-family: "Futura PT Demi";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura PT Demi"), url("../fonts/FuturaCyrillicDemi.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Futura PT Medium", "Futura PT Demi", "Futura PT Book", sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.l-header {
+  background-color: #FFFFFF;
+}
+.l-header__content {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.l-header__menu ul {
+  display: flex;
+  gap: 16px;
+}
+.l-header__menu ul a {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  text-decoration: none;
+}
+.l-header__contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.l-wrap-inner {
+  max-width: 1638px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.l-wrap-inner-md {
+  max-width: 1469px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.l-wrap-inner-sm {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.p-banner {
+  background: url(../images/banner.png) no-repeat top center/cover;
+  height: 916px;
+}
+.p-banner__inner {
+  position: relative;
+  height: 100%;
+}
+.p-banner__content {
+  max-width: 913px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.p-banner__content .p-banner__subtitle {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.p-banner__content h1 {
+  margin: 32px 0;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=styles.css.map */
